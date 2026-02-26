@@ -50,21 +50,19 @@ The objective is to identify patterns contributing to customer attrition and eva
 
 ---
 
-## Sample DAX Measure
+## Skills Demonstrated
 
-```DAX
-Churn Rate % =
-DIVIDE(
-    CALCULATE(COUNT(Telco[customerID]), Telco[Churn] = "Yes"),
-    COUNT(Telco[customerID])
-)
-```
-
+- Data Cleaning & Transformation  
+- Data Modeling  
+- DAX Calculations  
+- KPI Development  
+- Business Insight Generation  
+- Dashboard Design & Storytelling  
 ---
 
 ## Repository Structure
 
-- `Telco_Churn_Dashboard.pbix` – Power BI dashboard file  
+- `Telco_Churn.pbix` – Power BI dashboard file  
 - `dashboard_preview.png` – Dashboard screenshot  
 - `README.md` – Project documentation  
 - `LICENSE` – MIT License  
